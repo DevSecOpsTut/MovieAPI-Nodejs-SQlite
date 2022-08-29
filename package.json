@@ -1,0 +1,36 @@
+{
+  "name": "movie-api",
+  "version": "1.0.0",
+  "description": "Node.js on Docker",
+  "author": "Abel Jojo",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js --exec babel-node --presets babel-preset-env"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "express": "^4.18.1",
+    "nodemon": "^2.0.19",
+    "swagger-ui-express": "^4.5.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DevSecOpsTut/MovieAPI-Nodejs-SQlite.git"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "docker"
+  ],
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DevSecOpsTut/MovieAPI-Nodejs-SQlite/issues"
+  },
+  "homepage": "https://github.com/DevSecOpsTut/MovieAPI-Nodejs-SQlite#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.2.5",
+    "babel-preset-env": "^1.7.0"
+  }
+}
